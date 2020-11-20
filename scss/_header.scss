@@ -1,17 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 .wrapper {
   position: relative;
   overflow: hidden;
   max-width: 1600px;
   margin: 0 auto;
 }
-
 .header__top {
   position: relative;
   background-color: white;
@@ -20,14 +12,13 @@
   justify-content: space-between;
   padding: 10px 0;
 }
-
 .header__li {
   color: grey;
-}
-.header__li:hover {
-  border-bottom: 3px solid limegreen;
-  cursor: pointer;
-  color: black;
+  &:hover {
+    border-bottom: 3px solid limegreen;
+    cursor: pointer;
+    color: black;
+  }
 }
 
 .header__5elements {
@@ -36,32 +27,21 @@
   margin-top: 10px;
   gap: 50px;
 }
-
 .header__logo__pic {
   margin-top: 10px;
   margin-left: 140px;
 }
-
 .green__button {
-  background: linear-gradient(90deg, #b2f26b 5%, #00ffd6 100%, #72b89c 100%);
-  box-shadow: 0px 0px 17px 4px rgba(0, 0, 0, 0.48);
-  padding: 10px 40px;
-  border-radius: 40px;
-  color: white;
-  letter-spacing: 2px;
-  font-weight: bold;
-  border: none;
+  @include green__button();
   margin-right: 140px;
   margin-top: 10px;
 }
-
 .top__content__wrapp {
   position: relative;
   padding-top: 20px;
   height: 600px;
-  background-color: #fafafa;
+  background-color: $Very__Light__Gray;
 }
-
 .image__background {
   z-index: 1;
   position: absolute;
@@ -73,7 +53,6 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-
 .three__phones__div {
   z-index: 2;
   position: absolute;
@@ -82,7 +61,6 @@
   width: 400px;
   height: 300px;
 }
-
 .next__generation {
   padding-top: 140px;
   padding-left: 100px;
@@ -90,7 +68,6 @@
   font-weight: 600;
   opacity: 0.7;
 }
-
 .header__content__p {
   width: 30%;
   padding-left: 100px;
@@ -98,29 +75,18 @@
   line-height: 25px;
   opacity: 0.7;
 }
-
 .green__button2 {
-  background: linear-gradient(90deg, #b2f26b 5%, #00ffd6 100%, #72b89c 100%);
-  box-shadow: 0px 0px 17px 4px rgba(0, 0, 0, 0.48);
-  padding: 10px 40px;
-  border-radius: 40px;
-  color: white;
-  letter-spacing: 2px;
-  font-weight: bold;
-  border: none;
+  @include green__button();
   margin-top: 30px;
   margin-left: 100px;
 }
-
 .why__easybank__wrapp {
   position: relative;
   z-index: -1;
   height: 100vh;
-  background-color: #d8d3d3;
+  background-color: rgb(216, 211, 211);
 }
-
 .top__content__wrapp {
   position: relative;
   z-index: -1;
 }
-/*# sourceMappingURL=main.css.map */

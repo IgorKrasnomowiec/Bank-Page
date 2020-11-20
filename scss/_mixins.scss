@@ -1,0 +1,15 @@
+@mixin green__button() {
+  background: linear-gradient(
+    90deg,
+    rgba(178, 242, 107, 1) 5%,
+    rgba(0, 255, 214, 1) 100%,
+    rgba(114, 184, 156, 1) 100%
+  );
+  box-shadow: 0px 0px 17px 4px rgba(0, 0, 0, 0.48);
+  padding: 10px 40px;
+  border-radius: 40px;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: bold;
+  border: none;
+}
