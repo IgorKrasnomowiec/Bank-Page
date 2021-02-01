@@ -1,6 +1,8 @@
 https://igorkrasnomowiec.github.io/Bank-Page/.
 
 Training site
+
+in progress
 _______________________________
 ![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)
 
