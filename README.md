@@ -1,5 +1,7 @@
-# Frontend Mentor - Easybank landing page
+https://igorkrasnomowiec.github.io/Bank-Page/.
 
+Training site
+_______________________________
 ![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
